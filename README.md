@@ -1,37 +1,70 @@
-## Welcome to GitHub Pages
+## TensorFlow2.0.0 on Raspberry Pi 4B
+tensorflow-2.0.0-cp37-none-linux_armv7l.whl for Raspberry Pi 4B is being officially supported.
 
-You can use the [editor on GitHub](https://github.com/xiaochanggong916/xiaochanggong916.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Updating apt-get upgrade list
+`sudo apt-get update`
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Seeing the python version of your system
+The system comes with python2.7 and python3.7, but python3.7 is recommended.
 
-### Markdown
+#For python2.7
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+`python2 –V`
 
-```markdown
-Syntax highlighted code block
+#For python3.7
 
-# Header 1
-## Header 2
-### Header 3
+`python3 –V`
 
-- Bulleted
-- List
+## pip3 installation
+pip3 is a tool for installing various libraries, software and tensorflow.
 
-1. Numbered
-2. List
+`sudo apt-get install python3-pip python3-dev`
 
-**Bold** and _Italic_ and `Code` text
+## pip3 version
 
-[Link](url) and ![Image](src)
+`pip3 -V`
+
+## Downloading tensorflow2.0.0
+I downloaded the [tensorflow installer](https://github.com/lhelontra/tensorflow-on-arm/releases) directly from Windows and put it in the raspberry pi.
+
+Downloading tensorflow-2.0.0-cp37-none-linux_armv7l.whl version
+
+## tensorflow2.0.0 installation
+
+#### Installing lrzsz (for sending and receiving files)
+
+`sudo apt-get install lrzsz`
+
+#### Receiving tensorflow-2.0.0-cp37-none-linux_armv7l.whl
+`cd /usr/local`
+
+`sudo rz`
+
+#### installation
+
+If all goes well, you'll see a prompt for a successful installation later.
+
+`sudo pip3 install tensorflow-2.0.0-cp37-none-linux_armv7l.whl`
+
+## Testing tensorflow2.0.0
+
+We use TensorFlow 2 to complete the operation of 2.0 + 4.0:
+
+```
+python3
+
+#在python3界面中输入以下代码
+
+import tensorflow as tf
+
+a = tf.constant(2.)
+
+b = tf.constant(4.)
+
+print('a+b=',a+b)
+
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+***Python3.7+TensorFlow2.0.0 failed to be installed on raspberry pie 3B before, during which, various versions did not match, but this installation went smoothly, so I hope it is helpful***
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xiaochanggong916/xiaochanggong916.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
