@@ -30,7 +30,7 @@ I downloaded the [tensorflow installer](https://github.com/lhelontra/tensorflow-
 
 Downloading tensorflow-2.0.0-cp37-none-linux_armv7l.whl version
 
-![tensorflow-2.0.0-cp37](https://github.com/xiaochanggong916/xiaochanggong916.github.io/blob/master/image/20200103104328754.png)
+![tensorflow-2.0.0-cp37](https://github.com/xiaochanggong916/xiaochanggong916.github.io/blob/master/image/20200103104328745.png)
 
 
 
