@@ -27,7 +27,11 @@ pip3 is a tool for installing various libraries, software and tensorflow.
 ## Downloading tensorflow2.0.0
 I downloaded the [tensorflow installer](https://github.com/lhelontra/tensorflow-on-arm/releases) directly from Windows and put it in the raspberry pi.
 
-![Downloading tensorflow-2.0.0-cp37-none-linux_armv7l.whl version]（https://github.com/xiaochanggong916/xiaochanggong916.github.io/blob/master/image/20200103104328745.png）
+Downloading tensorflow-2.0.0-cp37-none-linux_armv7l.whl version
+
+![tensorflow-2.0.0-cp37](https://github.com/xiaochanggong916/xiaochanggong916.github.io/blog/master/image/20200103104328754.png)
+
+
 
 ## tensorflow2.0.0 installation
 
