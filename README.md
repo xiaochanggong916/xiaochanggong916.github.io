@@ -58,7 +58,7 @@ We use TensorFlow 2 to complete the operation of 2.0 + 4.0:
 ```
 python3
 
-#在python3界面中输入以下代码
+#Entering the following code in the python3 interface
 
 import tensorflow as tf
 
