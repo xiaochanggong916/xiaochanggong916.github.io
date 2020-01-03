@@ -6,14 +6,15 @@ tensorflow-2.0.0-cp37-none-linux_armv7l.whl for Raspberry Pi 4B is being officia
 
 ## Seeing the python version of your system
 The system comes with python2.7 and python3.7, but python3.7 is recommended.
-
+```
 #For python2.7
 
-`python2 –V`
+python2 –V
 
 #For python3.7
 
-`python3 –V`
+python3 –V
+```
 
 ## pip3 installation
 pip3 is a tool for installing various libraries, software and tensorflow.
